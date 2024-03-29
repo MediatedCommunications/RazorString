@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<PropertyGroup>
+		<PackageId>RazorString</PackageId>
+		<PackageVersion>8.0.3</PackageVersion>
+		<AssemblyVersion>8.0.3</AssemblyVersion>
+		<FileVersion>8.0.3</FileVersion>
+		<AssemblyTitle>RazorString</AssemblyTitle>
+		<Authors>Tony Valenti</Authors>
+		<Description>Render Razor compontents to strings.</Description>
+		<Copyright>Andy Wilson</Copyright>
+		<PackageProjectUrl>https://github.com/mediatedcommunications/RazorString</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/mediatedcommunications/RazorString</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>razor html string token templating template formatter format interpolate string-format</PackageTags>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageIcon>RazorString.png</PackageIcon>
+	</PropertyGroup>
+	
+	<ItemGroup>
+		<None Include="..\LICENSE.md">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+		<None Include="..\README.md">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+		<None Include="..\RazorString.png">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+	
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>

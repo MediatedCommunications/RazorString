@@ -1,0 +1,21 @@
+﻿Hello @Context.Name!  I see that you were born on @Context.Date_Of_Birth.
+
+Today we will eat:
+Breakfast: @Breakfast
+Lunch:     @Lunch
+Dinner:    @Dinner
+
+@code {
+    [Parameter]
+    public required CompositeContext Context { get; init; }
+
+    [Parameter]
+    public required string Breakfast { get; init; }
+
+    [Parameter]
+    public required string Lunch { get; init; }
+
+    [Parameter]
+    public required string Dinner { get; init; }
+
+}
