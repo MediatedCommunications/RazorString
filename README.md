@@ -61,7 +61,7 @@ Dinner:    @Dinner
 }
 ```
 
-Then also create a file named ```CompositeContext.razor```:
+Then also create a file named ```CompositeContext.cs```:
 ```csharp
 namespace Example.Templates {
     public record CompositeContext {
